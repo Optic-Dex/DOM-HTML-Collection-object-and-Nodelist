@@ -1,0 +1,26 @@
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+@import './helper/variables';
+@import './helper/mixin';
+@import './helper/placeholder';
+@import './helper/extend';
+@import './helper/grid';
+@import './helper/nav';
+@import './helper/footer';
+@import './helper/animation';
+
+
+p {
+    font-size: 25px;
+}
+h1 {
+    font-size: 41px;
+}
+
+button {
+    font-size: 25px;
+}
